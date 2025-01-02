@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xinder | The Best Art Gallery</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/xinder.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.2/dist/css/glide.core.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">xinder</a>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Explore</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <button class="btn btn-secondary">Join Now</button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="hero mt-5">
+        <div class="container mt-5">
+          <div class="row">
+            <div
+              class="col-12 col-md-6 col-lg-6 col-xl-6 mb-2 align-content-center"
+            >
+              <h1 class="display-2 fw-bold">
+                Search the work of <br />
+                the best artists
+              </h1>
+              <div class="flex-row d-flex">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><img
+                      src="./assets/icons/search.svg"
+                      alt=""
+                      class="img-fluid input-icon"
+                  /></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="search for artists, work name, or category"
+                    aria-label="search for artists, work name, or category"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <button class="btn btn-primary">Search</button>
+              </div>
+              <div class="filter-group">
+                <p class="filter">Oil Painting</p>
+                <p class="filter">Abstract Art</p>
+                <p class="filter">Sculpture</p>
+                <p class="filter">Art Deco</p>
+                <p class="filter">Pop Art</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 mt-2">
+              <img
+                src="./assets/images/girl.png"
+                alt=""
+                class="img-fluid hero-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <section class="brands">
+      <div class="container">
+        <div class="row text-center d-flex justify-content-center py-5 o">
+          <div class="col-12 col-lg-2 mb-3 mt-3">
+            <img src="./assets/icons/smart.svg" alt="" />
+          </div>
+          <div class="col-12 col-lg-2 mb-3 mt-3">
+            <img src="./assets/icons/zoomerr.svg" alt="" />
+          </div>
+          <div class="col-12 col-lg-2 mb-3 mt-3">
+            <img src="./assets/icons/shells.svg" alt="" />
+          </div>
+          <div class="col-12 col-lg-2 mb-3 mt-3">
+            <img src="./assets/icons/waves.svg" alt="" />
+          </div>
+          <div class="col-12 col-lg-2 mb-3 mt-3">
+            <img src="./assets/icons/artvenue.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="categories my-5">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-between align-items-center my-3">
+            <h1 class="display-6 fw-bold">Featured Art Categories</h1>
+            <a href="#" class="text-decoration-none"
+              >View All Categories
+              <img
+                src="./assets/icons/arrow-right.svg"
+                alt=""
+                class="img-fluid"
+                width="16"
+            /></a>
+          </div>
+          <div class="row-5">
+            <div class="card card-1">
+              <h4>Pottery</h4>
+              <h2>Vases Family</h2>
+            </div>
+            <div class="card card-2">
+              <h4>Oil Painting</h4>
+              <h2>Camel Portrait</h2>
+            </div>
+            <div class="card card-3">
+              <h4>Abstract Painting</h4>
+              <h2>Euforia</h2>
+            </div>
+            <div class="card card-4">
+              <h4>Object Design</h4>
+              <h2>Classic Watch</h2>
+            </div>
+            <div class="card card-5">
+              <h4>Sculpture</h4>
+              <h2>White Angel</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="masterpieces">
+      <div class="container py-5">
+        <div class="row d-flex justify-content-center">
+          <div class="d-flex justify-content-between align-items-center my-3">
+            <h1 class="display-6 fw-bold">Latest Masterpieces</h1>
+            <a href="#" class="text-decoration-none">
+              Discover More Masterpieces
+              <img
+                src="./assets/icons/arrow-right.svg"
+                alt=""
+                class="img-fluid"
+                width="16"
+              />
+            </a>
+          </div>
+          <div class="row">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <div class="glide-card">
+                      <div class="glide-card-header position-relative">
+                        <p
+                          class="position-absolute mt-3 ms-3 bg-secondary-subtle px-2 rounded-3"
+                        >
+                          Promoted
+                        </p>
+                        <img
+                          src="./assets/images/flowers.png"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="glide-card-body">
+                        <div class="glide-card-profile">
+                          <div class="glide-card-image">
+                            <img src="./assets/images/pfp-1.png" alt="" />
+                          </div>
+                          <div class="glide-card-info">
+                            <h1>Flower Decorations</h1>
+                            <p>by Melvina Spring</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="glide-card">
+                      <div class="glide-card-header position-relative">
+                        <p
+                          class="position-absolute mt-3 ms-3 bg-danger-subtle text-danger px-2 rounded-3"
+                        >
+                          Featured
+                        </p>
+                        <img
+                          src="./assets/images/heart.png"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="glide-card-body">
+                        <div class="glide-card-profile">
+                          <div class="glide-card-image">
+                            <img src="./assets/images/pfp-2.png" alt="" />
+                          </div>
+                          <div class="glide-card-info">
+                            <h1>Heart Art</h1>
+                            <p>by John Doe</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="glide-card">
+                      <div class="glide-card-header">
+                        <img
+                          src="./assets/images/splatter.png"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="glide-card-body">
+                        <div class="glide-card-profile">
+                          <div class="glide-card-image">
+                            <img src="./assets/images/pfp-3.png" alt="" />
+                          </div>
+                          <div class="glide-card-info">
+                            <h1>Splash</h1>
+                            <p>by Rwanda Melflor</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="glide-card">
+                      <div class="glide-card-header">
+                        <img
+                          src="./assets/images/eye.png"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="glide-card-body">
+                        <div class="glide-card-profile">
+                          <div class="glide-card-image">
+                            <img src="./assets/images/pfp-4.png" alt="" />
+                          </div>
+                          <div class="glide-card-info">
+                            <h1>Colorful Face</h1>
+                            <p>by Melvina Spring</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="glide-card">
+                      <div class="glide-card-header">
+                        <img
+                          src="./assets/images/eye-wood.jpg"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="glide-card-body">
+                        <div class="glide-card-profile">
+                          <div class="glide-card-image">
+                            <img src="./assets/images/pfp-5.png" alt="" />
+                          </div>
+                          <div class="glide-card-info">
+                            <h1>Wood Art</h1>
+                            <p>by Tyrone Black</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="glide__arrows" data-glide-el="controls">
+                <button
+                  class="glide__arrow glide__arrow--left"
+                  data-glide-dir="<"
+                >
+                  <img
+                    src="./assets/icons/arrow-right.svg"
+                    alt=""
+                    class="left-arrow"
+                  />
+                </button>
+                <button
+                  class="glide__arrow glide__arrow--right"
+                  data-glide-dir=">"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container py-5 my-5 text-center">
+        <div class="row">
+          <h1 class="text-center mb-5 pb-5">Expanding Services</h1>
+          <div class="col-12 col-lg-2 col-xl-2 text-center">
+            <img src="assets/icons/trophy.svg" alt="" />
+            <h4 class="mt-3">Nibh viverra</h4>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 text-center">
+            <img src="./assets/icons/tunnel.svg" alt="" />
+            <h4 class="mt-3">Cursus amet</h4>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 text-center">
+            <img src="./assets/icons/tv.svg" alt="" />
+            <h4 class="mt-3">Ipsum fermentum</h4>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 text-center">
+            <img src="./assets/icons/ray.svg" alt="" />
+            <h4 class="mt-3">Quisque euismod</h4>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 text-center">
+            <img src="./assets/icons/megaphone.svg" alt="" />
+            <h4 class="mt-3">Arcu vulputate</h4>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 text-center">
+            <img src="./assets/icons/bookmark.svg" alt="" />
+            <h4 class="mt-3">Cras auctor</h4>
+          </div>
+        </div>
+        <button class="btn btn-primary mt-5 px-3 py-2">Find Services</button>
+      </div>
+    </section>
+    <section class="solutions my-5 py-5">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-12 col-lg-6 col-xl-6 mb-5">
+            <h1 class="display-4 fw-bold">
+              Best solutions for your <br />
+              demanding collection
+            </h1>
+            <p class="fw-light mt-5">
+              Odio vulputate cras vel lacinia turpis volutpat adipiscing.
+              Sollicitudin at <br />
+              velit, blandit tempus nunc in.
+            </p>
+            <ul class="solutions-list">
+              <li class="fw-light">
+                <img src="./assets/icons/check.svg" alt="" />
+                Interdum volutpat turpis malesuada ac turpis.
+              </li>
+              <li class="fw-light">
+                <img src="./assets/icons/check.svg" alt="" />
+                Tortor ipsum pretium quis nunc.
+              </li>
+              <li class="fw-light">
+                <img src="./assets/icons/check.svg" alt="" />
+                Vitae odio a id purus in.
+              </li>
+            </ul>
+            <button class="btn btn-secondary">Explore Xinder</button>
+          </div>
+          <div class="col-12 col-lg-6 col-xl-6">
+            <img
+              src="./assets/images/combined-photos.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog my-5 py-5">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div
+            class="col-12 col-lg-6 col-xl-6 d-flex justify-content-center mb-5"
+          >
+            <img
+              src="./assets/images/video-girl.png"
+              alt=""
+              class="img-fluid w-90"
+            />
+          </div>
+          <div class="col-12 col-lg-6 col-xl-6 d-grid">
+            <p class="text-secondary fs-5 pt-3 align-content-center">
+              Marie Poirot, Co-Founder <span class="text-primary">Art-Gal</span>
+            </p>
+            <h2 class="fw-normal">
+              “Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu
+              mattis est velit in. Nibh in purus sit convallis phasellus ut.
+              Neque suspendisse a habitasse commodo.”
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="incredible my-5 py-5">
+      <div class="container my-5 py-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-4 col-xl-4 mb-5">
+            <h1 class="display-4 fw-bold">Be incredible</h1>
+            <p class="fw-light mt-3">
+              Nec ultricies eget placerat ultricies eleifend <br />
+              dignissim aliquet sapien. Senectus vestibulum, <br />
+              eget erat at et congue cursus pretium.
+            </p>
+            <button class="btn btn-secondary">Explore Xinder</button>
+          </div>
+          <div
+            class="col-12 col-lg-3 col-xl-3 d-flex justify-content-center ii1"
+          >
+            <img
+              src="./assets/images/splatter-image.png"
+              alt=""
+              class="img-fluid incredible-image"
+            />
+          </div>
+          <div
+            class="col-12 col-lg-3 col-xl-3 d-flex justify-content-center ii2"
+          >
+            <img
+              src="./assets/images/wide-image.png"
+              alt=""
+              class="img-fluid incredible-image"
+            />
+          </div>
+          <div
+            class="col-12 col-lg-3 col-xl-3 d-flex justify-content-center ii1"
+          >
+            <img
+              src="./assets/images/eye-image.png"
+              alt=""
+              class="img-fluid incredible-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="events my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-between align-items-center my-3">
+            <h1 class="display-6 fw-bold">Art Events</h1>
+            <a href="#" class="text-decoration-none">
+              Explore All Events
+              <img
+                src="./assets/icons/arrow-right.svg"
+                alt=""
+                class="img-fluid"
+                width="16"
+              />
+            </a>
+          </div>
+          <div
+            class="col-12 col-lg-4 col-xl-4 d-flex justify-content-center my-3"
+          >
+            <div class="event-card w-75">
+              <div class="event-card-header position-relative">
+                <p
+                  class="position-absolute mt-3 ms-3 bg-danger-subtle text-danger px-2 rounded-2"
+                >
+                  Featured
+                </p>
+                <img
+                  src="./assets/images/horse.png"
+                  alt=""
+                  class="rounded-4 img-fluid"
+                />
+              </div>
+              <div class="event-card-body my-3">
+                <h3>Wild Horse Event</h3>
+                <p class="fs-5">
+                  Egestas elit dui scelerisque ut eu purus aliquam <br />
+                  vitae habitasse.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-4 col-xl-4 d-flex justify-content-center my-3"
+          >
+            <div class="event-card w-75">
+              <div class="event-card-header position-relative">
+                <p
+                  class="position-absolute mt-3 ms-3 bg-success-subtle text-success px-2 rounded-2"
+                >
+                  New
+                </p>
+                <img
+                  src="./assets/images/fireworks.png"
+                  alt=""
+                  class="rounded-4 img-fluid"
+                />
+              </div>
+              <div class="event-card-body my-3">
+                <h3>Great Colors</h3>
+                <p class="fs-5">
+                  Egestas elit dui scelerisque ut eu purus aliquam <br />
+                  vitae habitasse.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-4 col-xl-4 d-flex justify-content-center my-3"
+          >
+            <div class="event-card w-75">
+              <div class="event-card-header position-relative">
+                <p
+                  class="position-absolute mt-3 ms-3 bg-warning-subtle text-warning-emphasis px-2 rounded-2"
+                >
+                  Coming Soon
+                </p>
+                <img
+                  src="./assets/images/fathers-day.png"
+                  alt=""
+                  class="rounded-4 img-fluid"
+                />
+              </div>
+              <div class="event-card-body my-3">
+                <h3>Happy Father's Day</h3>
+                <p class="fs-5">
+                  Egestas elit dui scelerisque ut eu purus aliquam <br />
+                  vitae habitasse.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="add-more my-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-lg-6 col-xl-6 py-5 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h1 class="display-5 text-white fw-bold">
+              Add more masterpieces to <br />
+              your growing collection.
+            </h1>
+            <button class="btn btn-secondary mt-3">Join Now</button>
+          </div>
+          <div class="col-12 col-lg-6 col-xl-6 d-flex align-bottom pt-5">
+            <img src="./assets/images/man.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-2 col-xl-2 d-flex flex-column">
+            <h4 class="fw-bold">
+              <img
+                src="./assets/icons/world.svg"
+                class="me-2"
+                alt=""
+              />Categories
+            </h4>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >User Interface</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >User Expreience</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Digital Media</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Lifestyle</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Programming</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Animation</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 d-flex flex-column">
+            <h4 class="fw-bold">
+              <img src="./assets/icons/cloud.svg" class="me-2" alt="" />Product
+            </h4>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Pricing</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Overview</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Browse</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Accessibility</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Five</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Changelog</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 d-flex flex-column">
+            <h4 class="fw-bold">
+              <img src="./assets/icons/cog.svg" class="me-2" alt="" />Solutions
+            </h4>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Brainstorming</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Ideation</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Wireframing</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Research</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Design</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Concept</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 d-flex flex-column">
+            <h4 class="fw-bold">
+              <img
+                src="./assets/icons/branch.svg"
+                class="me-2"
+                alt=""
+              />Resources
+            </h4>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Help Center</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Blog</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Tutorials</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >FAQs</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Community</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Events</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 d-flex flex-column">
+            <h4 class="fw-bold">
+              <img
+                src="./assets/icons/headset.svg"
+                class="me-2"
+                alt=""
+              />Support
+            </h4>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Developers</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Documentation</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Integrations</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Reports</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Webinar</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-2 col-xl-2 d-flex flex-column">
+            <h4 class="fw-bold">
+              <img
+                src="./assets/icons/codepen.svg"
+                class="me-2"
+                alt=""
+              />Company
+            </h4>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Brainstorming</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Ideation</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Wireframing</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Research</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Design</a
+                >
+              </li>
+              <li class="my-3">
+                <a href="#" class="text-decoration-none text-black fs-6"
+                  >Concept</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="d-flex flex-row justify-content-between">
+          <h5 class="text-start">@2023 Xinder,Inc. All rights reserved.</h5>
+          <div class="d-flex gap-3">
+            <a href="#"><img src="./assets/icons/youtube.svg" alt="" /></a>
+            <a href="#"><img src="./assets/icons/facebook.svg" alt="" /></a>
+            <a href="#"><img src="./assets/icons/twitter.svg" alt="" /></a>
+            <a href="#"><img src="./assets/icons/instagram.svg" alt="" /></a>
+            <a href="#"><img src="./assets/icons/linkedin.svg" alt="" /></a>
+          </div>
+        </div>
+        <br>
+        <p class="fs-6 text-secondary-emphasis">In sed posuere sed ullamcorper feugiat. Lacinia elit neque, ipsum, non. Tellus mattis enim volutpat habitasse. Semper posuere lectus consectetur aliquam et ullamcorper. Dictumst aenean justo fames diam eget volutpat vestibulum elit. Blandit aliquet bibendum pellentesque turpis id penatibus faucibus id nunc. Aenean rhoncus, erat pellentesque eu. Quis morbi condimentum phasellus in ultricies eu amet.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.2/dist/glide.min.js"></script>
+    <script>
+      new Glide(".glide", {
+        type: "slider",
+        rewind: false,
+        startAt: 0,
+        perView: 4.2,
+        gap: 10,
+        loop: false,
+        breakpoints: {
+          1024: {
+            perView: 3,
+          },
+          768: {
+            perView: 2,
+          },
+          600: {
+            perView: 1,
+          },
+        },
+      }).mount();
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
